@@ -34,7 +34,7 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sirbento&show_icons=true&locale=en&layout=compact" alt="sirbento" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sirbento&show_icons=true&locale=en" alt="sirbento" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sirbento&show_icons=true&theme=radical&locale=en" alt="sirbento" /></p>
 
 
 <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sirbento&theme=gruvbox-duo" alt="sirbento" /></a>
