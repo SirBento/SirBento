@@ -1,4 +1,4 @@
-[![MasterHead]([[https://user-images.githubusercontent.com/74038190/212750680-266fa8aa-39f1-4e8b-8873-7181dbaf3d7c.gif]](https://github.com/mayankchaudhary26/Cool-Readme-ideas/blob/master/data/screen%20open.gif))](https://rishavchanda.io)
+[![MasterHead](https://user-images.githubusercontent.com/74038190/212750680-266fa8aa-39f1-4e8b-8873-7181dbaf3d7c.gif)](https://rishavchanda.io)
 <h1 align="center">Hi 👋, I'm Bernard Towindo</h1>
 <h3 align="center">A passionate software developer from Zimbabwe</h3>
 
