@@ -6,11 +6,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sirbento&label=Profile%20views&color=0e75b6&style=flat" alt="sirbento" /> </p>
 
-- 🔭 I’m currently working on [Smart Parking](https://github.com/SirBento/HutchHub)
+- 🔭 I’m currently working on [HutchHub](https://github.com/SirBento/HutchHub) and [Smart Parking](https://github.com/SirBento/Smart-Parking)
 
 - 🌱 I’m currently learning **SpringBoot, React, React Native**
 
-- 👯 I’m looking to collaborate on [Wagwan](https://github.com/SirBento/HutchHub)
+- 👯 I’m looking to collaborate on [HutchHub](https://github.com/SirBento/HutchHub)
 
 - 👨‍💻 All of my projects are available at [https://github.com/SirBento](https://github.com/SirBento)
 
