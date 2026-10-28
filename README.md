@@ -1,189 +1,222 @@
-[![MasterHead](https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif)](https://github.com/SirBento)
+<!-- ════════════════════════════════════════════════════════════════
+     HERO — custom animated isometric banner (assets/hero.svg)
+     ════════════════════════════════════════════════════════════════ -->
+<a href="https://github.com/SirBento">
+  <img src="./assets/hero.svg" alt="Bernard Towindo — Software Engineer" width="100%" />
+</a>
 
 <div align="center">
 
-# Bernard Towindo
-### Software Engineer · Zimbabwe 🇿🇼
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&multiline=false&width=720&height=50&lines=%E2%9A%A1+Turning+tax+law+into+clean+APIs;%E2%98%81%EF%B8%8F+Spring+Boot+microservices+on+GCP;%F0%9F%93%B1+React%2C+React+Native+%26+Kotlin+apps;%F0%9F%87%BF%F0%9F%87%BC+Solving+real+African+problems+with+code;%E2%98%95+Clean+code.+Clean+architecture.+Clean+coffee." alt="Typing SVG" />
+</a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Software+Engineer+%F0%9F%9A%80;Full-Stack+%7C+Cloud+%7C+Microservices;Java+%7C+Spring+Boot+%7C+React+%7C+Kotlin;Building+scalable+solutions+from+Zimbabwe;Clean+code%2C+clean+architecture%2C+clean+coffee+%E2%98%95)](https://git.io/typing-svg)
+<br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=sirbento&style=for-the-badge&color=0e75b6)](https://github.com/SirBento)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bernardtowindo)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bernard-towindo-117639193/)
-[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/11777737/bernard-towindo)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/bernard.towindo.9/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bento_38/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bernardtowindo38@gmail.com)
+<a href="https://www.linkedin.com/in/bernard-towindo-117639193/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://twitter.com/bernardtowindo"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
+<a href="https://stackoverflow.com/users/11777737/bernard-towindo"><img src="https://img.shields.io/badge/Stack_Overflow-F58025?style=flat-square&logo=stackoverflow&logoColor=white" alt="Stack Overflow"/></a>
+<a href="https://www.instagram.com/bento_38/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="https://www.facebook.com/bernard.towindo.9/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook"/></a>
+<a href="mailto:bernardtowindo38@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://www.wefiscalise.com"><img src="https://img.shields.io/badge/WeFiscalise.com-0F172A?style=flat-square&logo=googlechrome&logoColor=22D3EE" alt="WeFiscalise"/></a>
+<img src="https://komarev.com/ghpvc/?username=sirbento&style=flat-square&color=22d3ee&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
----
+<br/>
 
-## 👨‍💻 About Me
+<!-- ════════════════════════════════════════════════════════════════
+     ABOUT
+     ════════════════════════════════════════════════════════════════ -->
+<h2 align="left">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" alt="wave"/> About Me
+</h2>
 
-<img align="right" alt="Coder" width="380" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" />
+<table>
+<tr>
+<td width="58%" valign="top">
 
-```typescript
-const bernard: SoftwareEngineer = {
-  name:        "Bernard Towindo",
-  location:    "Harare, Zimbabwe 🌍",
-  role:        "Software Engineer",
-  experience:  ["Full-Stack", "Cloud Architecture", "Mobile Engineering"],
+```kotlin
+object Bernard : SoftwareEngineer {
+    override val location   = "Harare, Zimbabwe 🇿🇼"
+    override val focus      = listOf("Full-Stack", "Cloud", "Mobile")
+    override val building   = mapOf(
+        "WeFiscalise"   to "ZIMRA FDMS fiscalisation SaaS",
+        "HutchHub"      to "Rabbit farm management",
+        "Smart Parking" to "IoT slot tracking",
+    )
+    override val learning   = listOf("AWS SA", "Kubernetes", "Kafka")
+    override val philosophy = """
+        Clean architecture over clever hacks.
+        Microservices when they make sense.
+        Ship fast, iterate faster.
+    """.trimIndent()
 
-  currentlyBuilding: [
-    "WeFiscalise  — ZIMRA VAT compliance SaaS platform",
-    "HutchHub     — Zimbabwe's rabbit farm mgmt platform",
-    "Smart Parking — Intelligent parking management system",
-  ],
-
-  techPhilosophy: [
-    "Clean architecture over clever hacks",
-    "Microservices when it makes sense",
-    "Ship fast, iterate faster",
-    "Tests are documentation that runs",
-  ],
-
-  learning:    ["AWS Solutions Architect", "Kubernetes", "Kafka"],
-
-  openTo: [
-    "Open source collaboration",
-    "Freelance / contract work",
-    "Technical co-founder opportunities",
-    "Mentorship & knowledge sharing",
-    "Speaking at tech events",
-  ],
-
-  askMeAbout: [
-    "Java", "Spring Boot", "Kotlin", "TypeScript",
-    "React", "React Native", "Microservices",
-    "REST APIs", "Docker", "GCP", "AWS",
-    "System Design", "C++", "PHP",
-  ],
-
-  funFact: "I think I'm funny 😄 — my compiler disagrees.",
-};
+    fun funFact() = "I think I'm funny 😄 — my compiler disagrees."
+}
 ```
 
----
+</td>
+<td width="42%" valign="top">
 
-## 🚀 Featured Projects
+**🔭 Right now**
+- Shipping **WeFiscalise** — real-time ZIMRA fiscalisation across web, desktop, Android & POS
+- Designing offline-first, store-and-forward pipelines
 
-<div align="center">
+**🤝 Open to**
+- Freelance / contract work
+- Technical co-founder roles
+- Open-source collaboration
+- Mentorship & tech talks
 
-| Project | Description | Tech | Status |
-|--------|-------------|------|--------|
-| [💰 WeFiscalise](https://www.wefiscalise.com) | Zimbabwe's 100% cloud-based ZIMRA FDMS VAT compliance platform. Real-time fiscalisation, e-invoicing, automated fiscal days & multi-branch management — no hardware required. | Spring Boot · React · Cloud | 🟢 Live |
-| [🐇 HutchHub](https://github.com/SirBento/HutchHub) | Zimbabwe's dedicated rabbit farm management platform. Track hutches, breeds, health records, feeding schedules and farm analytics. | React Native · Spring Boot · MySQL | 🔨 Active |
-| [🚗 Smart Parking](https://github.com/SirBento/Smart-Parking) | Intelligent parking management system with real-time slot tracking and automated entry/exit management. | Java · IoT · Arduino | 🔨 Active |
+**💬 Ask me about**
+`Java` `Spring Boot` `Kotlin` `TypeScript` `React` `React Native` `Microservices` `System Design` `GCP` `AWS` `Docker`
 
-</div>
+</td>
+</tr>
+</table>
 
----
+<!-- ════════════════════════════════════════════════════════════════
+     FEATURED PROJECTS
+     ════════════════════════════════════════════════════════════════ -->
+<h2>🚀 Featured Projects</h2>
 
-## 🛠️ Tech Stack
+<table>
+<tr>
+<td width="33%" valign="top">
 
-### 💻 Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+### 💰 [WeFiscalise](https://www.wefiscalise.com)
+![Live](https://img.shields.io/badge/status-live-22c55e?style=flat-square)
 
-### 🎨 Frontend & Mobile
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+Zimbabwe's 100% cloud-based **ZIMRA FDMS** VAT compliance platform. Real-time fiscalisation, e-invoicing, automated fiscal days, POS and multi-branch management — **no hardware required**.
 
-### ⚙️ Backend & Frameworks
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-FF6C37?style=for-the-badge&logo=openapiinitiative&logoColor=white)
+<sub>`Spring Boot` `React` `Capacitor` `Electron` `GCP Cloud Run`</sub>
 
-### 🗄️ Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![Microsoft SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+</td>
+<td width="33%" valign="top">
 
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+### 🐇 [HutchHub](https://github.com/SirBento/HutchHub)
+![Active](https://img.shields.io/badge/status-active-f59e0b?style=flat-square)
 
-### 🔧 Tools, Messaging & Practices
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+A dedicated rabbit farm management platform. Track hutches, breeds, health records, feeding schedules and farm analytics — built for Zimbabwean farmers.
 
----
+<sub>`React Native` `Spring Boot` `MySQL`</sub>
 
-## 📊 GitHub Stats
+</td>
+<td width="33%" valign="top">
+
+### 🚗 [Smart Parking](https://github.com/SirBento/Smart-Parking)
+![Active](https://img.shields.io/badge/status-active-f59e0b?style=flat-square)
+
+Intelligent parking management with real-time slot tracking and automated entry/exit control, from sensor to dashboard.
+
+<sub>`Java` `IoT` `Arduino`</sub>
+
+</td>
+</tr>
+</table>
+
+<!-- ════════════════════════════════════════════════════════════════
+     TECH STACK
+     ════════════════════════════════════════════════════════════════ -->
+<h2>🛠️ Tech Stack</h2>
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=sirbento&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sirbento&layout=compact&langs_count=10&theme=tokyonight"/>
+<table>
+<tr>
+<td align="center" width="140"><b>Languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=java,kotlin,ts,js,php,cpp,c,bash&perline=8" alt="Languages"/></td>
+</tr>
+<tr>
+<td align="center"><b>Frontend<br/>& Mobile</b></td>
+<td><img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,html,css,androidstudio,figma&perline=8" alt="Frontend and Mobile"/></td>
+</tr>
+<tr>
+<td align="center"><b>Backend</b></td>
+<td><img src="https://skillicons.dev/icons?i=spring,nodejs,express,graphql,maven&perline=8" alt="Backend"/></td>
+</tr>
+<tr>
+<td align="center"><b>Data</b></td>
+<td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,sqlite,firebase&perline=8" alt="Databases"/></td>
+</tr>
+<tr>
+<td align="center"><b>Cloud<br/>& DevOps</b></td>
+<td><img src="https://skillicons.dev/icons?i=gcp,aws,docker,kubernetes,githubactions,nginx,linux,git&perline=8" alt="Cloud and DevOps"/></td>
+</tr>
+<tr>
+<td align="center"><b>Messaging<br/>& Tools</b></td>
+<td><img src="https://skillicons.dev/icons?i=kafka,rabbitmq,postman,arduino&perline=8" alt="Messaging and Tools"/></td>
+</tr>
+</table>
 
 </div>
+
+<!-- ════════════════════════════════════════════════════════════════
+     3D CONTRIBUTIONS (generated daily by .github/workflows/profile-3d.yml)
+     ════════════════════════════════════════════════════════════════ -->
+<h2>🧊 Contributions in 3D</h2>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" width="100%" />
+</picture>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════
+     STATS
+     ════════════════════════════════════════════════════════════════ -->
+<h2>📊 GitHub Stats</h2>
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sirbento&theme=tokyonight)](https://git.io/streak-stats)
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=sirbento&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b1020&title_color=22d3ee&icon_color=a78bfa&text_color=cbd5e1&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sirbento&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0b1020&title_color=22d3ee&text_color=cbd5e1" alt="Top languages"/>
+
+<img src="https://streak-stats.demolab.com/?user=sirbento&theme=tokyonight&hide_border=true&background=0B1020&ring=A78BFA&fire=F472B6&currStreakLabel=22D3EE" alt="GitHub streak"/>
+
+<br/><br/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=sirbento&bg_color=0b1020&color=a78bfa&line=22d3ee&point=f472b6&area=true&area_color=22d3ee&hide_border=true&radius=12" alt="Activity graph"/>
 
 </div>
 
+<!-- ════════════════════════════════════════════════════════════════
+     SNAKE (generated daily by .github/workflows/snake.yml → output branch)
+     ════════════════════════════════════════════════════════════════ -->
+<h2>🐍 Eating My Commits</h2>
 
----
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SirBento/SirBento/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SirBento/SirBento/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/SirBento/SirBento/output/github-snake-dark.svg" alt="Snake eating contributions" width="100%" />
+</picture>
+</div>
 
-## 📈 Contribution Graph
+<!-- ════════════════════════════════════════════════════════════════
+     MISSION + FOOTER
+     ════════════════════════════════════════════════════════════════ -->
+<h2>🌍 Building from Zimbabwe</h2>
+
+> I use technology to solve real African problems — from ZIMRA tax compliance automation to agricultural management.
+> If you're building something that matters, **let's talk.**
 
 <div align="center">
 
-[![Bernard's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sirbento&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<br/>
+
+<i>"First, solve the problem. Then, write the code."</i>
+
+<br/><br/>
+
+<a href="mailto:bernardtowindo38@gmail.com">
+  <img src="https://img.shields.io/badge/Let's%20build%20something%20great-bernardtowindo38%40gmail.com-22d3ee?style=for-the-badge&labelColor=0b1020" alt="Email me"/>
+</a>
 
 </div>
 
----
-
-## 🌍 Building from Zimbabwe
-
-> I'm passionate about using technology to solve real African problems — from ZIMRA tax compliance automation to agricultural management. If you're building something that matters, let's talk.
-
----
-
-<div align="center">
-
-### 💬 Let's build something great together!
-
-*"First, solve the problem. Then, write the code."*
-
-**📬 Reach me at:** bernardtowindo38@gmail.com
-
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:a78bfa,100:f472b6&height=120&section=footer" width="100%" alt="footer"/>
